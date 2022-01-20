@@ -1,3 +1,4 @@
+print("ENTeR CALCULATION IN THIS FORMAT: +23, *23, /23")
 data = list(input())
 if "*" in data:
    print(data)
