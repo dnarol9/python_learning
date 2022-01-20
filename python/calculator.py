@@ -7,14 +7,14 @@ numbers = []
 numbers.append(n1)
 numbers.append(n2)
 if "*" in data:
-   print(n1, n2)
+   print(n1,"*" ,n2)
    numbers = [int(x)for x in numbers]
    print(numbers[0] * numbers[1])
 elif "+" in data:
-    print(n1, n2)
+    print(n1,"+", n2)
     numbers = [int(x)for x in numbers]
     print(numbers[0] + numbers[1])
 elif "/" in data:
-    print(n1, n2)
+    print(n1,"/", n2)
     numbers = [int(x)for x in numbers]
     print(numbers[0] / numbers[1])
